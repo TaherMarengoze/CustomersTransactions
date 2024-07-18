@@ -107,7 +107,7 @@ $(document).ready( function () {
                 </table>
 
                 <div class="chart-area border m-5">
-                    <canvas></canvas>
+                    <canvas class="mx-auto"></canvas>
                 </div>
             </div>
 
