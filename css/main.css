@@ -1,0 +1,14 @@
+
+.sub-panel{
+    
+    padding: 5px 10px;
+
+    border-left: 5px solid #0D6EFD;
+    border-radius: 5px;
+
+    background-color: hsla(215, 100%, 52%, 0.2);
+}
+
+.sub-panel .chart-area{
+    background-color: #fff8;
+}
