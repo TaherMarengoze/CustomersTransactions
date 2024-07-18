@@ -7,7 +7,7 @@ $(document).ready( function () {
     fetchData();
     
     async function fetchData(){
-        let response = await fetch(`/data/data.json`);
+        let response = await fetch(`https://tahermarengoze.github.io/CustomersTransactions/data/data.json`);
         apiData = await response.json();
 
         customersTable = $('#tblCustomers').DataTable({
